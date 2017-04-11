@@ -54,7 +54,7 @@ try:
 
         if len(schedule) == total_games:
         #for (player1, player2) in season_schedule_order(games):
-            print "Optimized Schedule:"
+            print "Optimized Schedule (Total Games: %d):"%(total_games)
             for (player1, player2)  in schedule:
                 print "%s\t%s"%(player1,player2)
             opt_schedule = True
